@@ -23,3 +23,28 @@ Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
 Happy modeling!
 
 00:10:49.644238 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110b391b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110b25c00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110b26d40>]}
+
+
+============================== 2022-03-18 00:23:30.053208 | 778b651c-654e-4fe1-99f3-d11f71d62b5f ==============================
+00:23:30.053228 [info ] [MainThread]: Running with dbt=1.0.1
+00:23:30.054932 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/rudrakshi/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+00:23:30.055928 [debug] [MainThread]: Tracking: tracking
+00:23:30.092251 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112fabfd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112fab910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112fab940>]}
+00:23:43.881174 [debug] [MainThread]: Starter project path: /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/dbt/include/starter_project
+00:23:45.575481 [info ] [MainThread]: 
+Your new dbt project "data_transform" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+00:23:45.576163 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112bac5b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1130e6d70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1130e7c70>]}
